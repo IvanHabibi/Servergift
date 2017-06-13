@@ -11,8 +11,4 @@ controllers.reqGift = (req, res) => {
   });
 };
 
-controllers.getGift = (req, res) => {
-  res.send({ hoi: "hello" });
-};
-
 module.exports = controllers;
